@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>游戏库</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script type="text/javascript" src="js/animate.js"></script>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <!首页头部!>
+    <div class="public-header">
+  	<div class="public-header-nav">
+  		<a class="public-header-nav-index">网站首页</a>
+  		<div class="public-header-nav-login">
+  			<a id="loginBtn" href="http://www.bilibili.com/" target="_blank">登陆</a>
+            <span class="line">|</span>
+            <a id="registerBtn">注册</a>
+  		</div>
+  	</div>
+  </div>
+    <!首页导航!>
+    <div class="public-nav">
+    <div class="public-nav-box">
+      <a href="" class="public-nav-box-logo"></a>
+      <div class="public-nav-box-bar">
+        <ul>
+          <li><a href="" class="active">首页</a></li>
+          <li><a href="">资讯</a></li>
+          <li><a href="">攻略</a></li>
+          <li><a href="">评测</a></li>
+          <li><a href="">手游库</a></li>
+          <li><a href="">下载</a></li>
+        </ul>
+      </div>
+      <div class="public-nav-box-search">
+        <input type="text" name="search" placeholder="搜索"><a class="btn"></a>
+      </div>
+    </div>
+  </div>
+    <!首页切换卡!>
+    <div class="index-top-tab">
+        <div class="index-tab-btngroup" >
+            <div class="btn active">热门游戏</div>
+            <div class="btn">最新网游</div>
+            <div class="btn">最新单机</div>
+        </div>
+        <div class="index-tab-box">
+        <div class="index-tab-item show">
+            <div class="index-tab-applist clearfix">
+                <a class="item">
+                    <img src="images/app-icon-1.png">
+                    <p>天天炫斗</p>
+                </a>
+                <a class="item">
+                <img src="images/app-icon-2.png">
+                <p>大掌门</p>
+            </a>
+            <a class="item">
+                <img src="images/app-icon-3.png">
+                <p>刀塔传奇</p>
+            </a>
+            <a class="item">
+                <img src="images/app-icon-4.png">
+                <p>神雕侠侣</p>
+            </a>
+            <a class="item">
+                <img src="images/app-icon-5.png">
+                <p>乱世曲</p>
+            </a>
+            <a class="item">
+                <img src="images/app-icon-6.png">
+                <p>武侠Q传</p>
+            </a>
+            <a class="item">
+                <img src="images/app-icon-7.png">
+                <p>时空猎人</p>
+            </a>
+            <a class="item">
+                <img src="images/app-icon-8.png">
+                <p>放开那三国</p>
+            </a>
+        </div>
+        <div class="index-tab-label">
+            <div class="inner clearfix">
+                <a href="" class="item">天天飞车</a>
+                <a href="" class="item">伊甸</a>
+                <a href="" class="item">全民炫舞</a>
+                <a href="" class="item">马上踢足球</a>
+                <a href="" class="item">天天酷跑</a>
+                <a href="" class="item">金箍棒OL</a>
+                <a href="" class="item">地铁跑酷</a>
+                <a href="" class="item">卧虎藏龙</a>
+                <a href="" class="item">海岛奇兵</a>
+                <a href="" class="item">全民小镇</a>
+                <a href="" class="item">部落战争</a>
+                <a href="" class="item">多塔联盟</a>
+                <a href="" class="item">百万亚瑟王</a>
+                <a href="" class="item">放开那三国</a>
+                <a href="" class="item">圣斗士</a>
+                <a href="" class="item">进击的魔王</a>
+                <a href="" class="item">神之刃</a>
+                <a href="" class="item">忍者神偷</a>
+            </div>
+        </div>
+    </div>
+            <div class="index-tab-item">
+                <div class="index-tab-applist clearfix">
+                    <a class="item">
+                        <img src="images/app-icon-1.png">
+                        <p>天天炫斗</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-2.png">
+                        <p>大掌门</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-3.png">
+                        <p>刀塔传奇</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-4.png">
+                        <p>神雕侠侣</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-5.png">
+                        <p>乱世曲</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-6.png">
+                        <p>武侠Q传</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-7.png">
+                        <p>时空猎人</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-8.png">
+                        <p>放开那三国</p>
+                    </a>
+                </div>
+                <div class="index-tab-label">
+                    <div class="inner clearfix">
+                        <a href="" class="item">天天飞车</a>
+                        <a href="" class="item">伊甸</a>
+                        <a href="" class="item">全民炫舞</a>
+                        <a href="" class="item">马上踢足球</a>
+                        <a href="" class="item">天天酷跑</a>
+                        <a href="" class="item">金箍棒OL</a>
+                        <a href="" class="item">地铁跑酷</a>
+                        <a href="" class="item">卧虎藏龙</a>
+                        <a href="" class="item">海岛奇兵</a>
+                        <a href="" class="item">全民小镇</a>
+                        <a href="" class="item">部落战争</a>
+                        <a href="" class="item">多塔联盟</a>
+                        <a href="" class="item">百万亚瑟王</a>
+                        <a href="" class="item">放开那三国</a>
+                        <a href="" class="item">圣斗士</a>
+                        <a href="" class="item">进击的魔王</a>
+                        <a href="" class="item">神之刃</a>
+                        <a href="" class="item">忍者神偷</a>
+                    </div>
+                </div>
+            </div>
+            <div class="index-tab-item">
+                <div class="index-tab-applist clearfix">
+                    <a class="item">
+                        <img src="images/app-icon-1.png">
+                        <p>天天炫斗</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-2.png">
+                        <p>大掌门</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-3.png">
+                        <p>刀塔传奇</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-4.png">
+                        <p>神雕侠侣</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-5.png">
+                        <p>乱世曲</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-6.png">
+                        <p>武侠Q传</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-7.png">
+                        <p>时空猎人</p>
+                    </a>
+                    <a class="item">
+                        <img src="images/app-icon-8.png">
+                        <p>放开那三国</p>
+                    </a>
+                </div>
+                <div class="index-tab-label">
+                    <div class="inner clearfix">
+                        <a href="" class="item">天天飞车</a>
+                        <a href="" class="item">伊甸</a>
+                        <a href="" class="item">全民炫舞</a>
+                        <a href="" class="item">马上踢足球</a>
+                        <a href="" class="item">天天酷跑</a>
+                        <a href="" class="item">金箍棒OL</a>
+                        <a href="" class="item">地铁跑酷</a>
+                        <a href="" class="item">卧虎藏龙</a>
+                        <a href="" class="item">海岛奇兵</a>
+                        <a href="" class="item">全民小镇</a>
+                        <a href="" class="item">部落战争</a>
+                        <a href="" class="item">多塔联盟</a>
+                        <a href="" class="item">百万亚瑟王</a>
+                        <a href="" class="item">放开那三国</a>
+                        <a href="" class="item">圣斗士</a>
+                        <a href="" class="item">进击的魔王</a>
+                        <a href="" class="item">神之刃</a>
+                        <a href="" class="item">忍者神偷</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <!新闻主体!>
+    <div class="index-news">
+        <!左边!>
+        <div class="index-news-left">
+            <div class="index-news-icon">
+            </div>
+            <div class="index-news-top">
+                <h2><a>触控牵手Glu 将代理其热游《火线指令》</a></h2>
+                <p class="content">
+                    6月11日，触控科技与GluMobile在北京联合召开发布会，宣布触控获得GluMobile...
+                    <a class="detail">详细>></a>
+                </p>
+                <h2><a>新浪宣布将每月推2款微博手游 不惧腾</a> </h2>
+                <p class="content">
+                    6月11日，触控科技与GluMobile在北京联合召开发布会，宣布触控获得GluMobile...
+                    <a class="detail">详细>></a>
+                </p>
+            </div>
+            <div class="index-news-list">
+                <a class="news-item">
+                    <span class="label">动态</span>
+                    <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                    <span class="date">6-12</span>
+                </a>
+                <a class="news-item">
+                    <span class="label">攻略</span>
+                    <span class="detail">EA手游再发力 体育新作高球王者亮相</span>
+                    <span class="date">6-12</span>
+                </a>
+                <a class="news-item">
+                    <span class="label">攻略</span>
+                    <span class="detail">盛大将代理发布日本畅销手游：拼战三国志</span>
+                    <span class="date">6-12</span>
+                </a>
+                <a class="news-item">
+                    <span class="label">攻略</span>
+                    <span class="detail">跳得更高！《索尼克跳跃：狂热》今夏上架</span>
+                    <span class="date">6-12</span>
+                </a>
+            </div>
+            <div class="index-news-list">
+                <a class="news-item">
+                    <span class="label">动态</span>
+                    <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                    <span class="date">6-12</span>
+                </a>
+                <a class="news-item">
+                    <span class="label">攻略</span>
+                    <span class="detail">Gameloft新作地下城宝石试玩视频放出</span>
+                    <span class="date">6-12</span>
+                </a>
+                <a class="news-item">
+                    <span class="label">攻略</span>
+                    <span class="detail">EA手游再发力 体育新作高球王者亮相</span>
+                    <span class="date">6-12</span>
+                </a>
+                <a class="news-item">
+                    <span class="label">攻略</span>
+                    <span class="detail">盛大将代理发布日本畅销手游：拼战三国志</span>
+                    <span class="date">6-12</span>
+                </a>
+                <a class="news-item">
+                    <span class="label">攻略</span>
+                    <span class="detail">跳得更高！《索尼克跳跃：狂热》今夏上架</span>
+                    <span class="date">6-12</span>
+                </a>
+            </div>
+        </div>
+        <!右边!>
+        <div class="index-news-right">
+            <div class="index-focus-box">
+                <div class="index-focus-list">
+                    <ul>
+                        <li class="active">
+                            <a href=""><img></a>
+                        </li>
+                        <li class="active">
+                            <a href=""><img></a>
+                        </li>
+                        <li class="active">
+                            <a href=""><img></a>
+                        </li>
+                        <li class="active">
+                            <a href=""><img></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="index-focus-foot">
+                    <a class="title text-overflow" href="">刀塔传奇新英雄谍报</a>
+                    <ul class="btngroup">
+                        <li class="active "></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="index-small-box">
+                <a class="box-left" href=""><img src="images/index-small-box-left.png"></a>
+                <div class="box-right">
+                    <h3 class="text-overflow"><a href="">人气飙高《吸血牙妹》火爆势不可挡</a></h3>
+                    <p class="info">绝美3D端游级既视感，360度自由立体指控操作，广州盈正独家代理《吸血牙妹》火爆上架中。视觉、游戏内容...<a href="">详细>></a></p>
+                </div>
+            </div>
+            <div class="index-small-box index-small-box-boder">
+                <a class="box-left" href=""><img src="images/index-small-box-left2.png"></a>
+                <div class="box-right">
+                    <h3 class="text-overflow"><a href="">美式漫画风跑酷,《奔跑王》即将上架</a></h3>
+                    <p class="info">由 나인그루브（ninegroove)制作，NHN公司运营的全新酷跑游戏 나에게 달려왕《奔跑王》开启预约登记，不久将与玩家见面...<a href="">详细>></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!广告1!>
+    <div class="index-ad1" href="">
+        <a href="">
+            <img src="images/index-ad.png">
+        </a>
+    </div>
+    <!栏目1!>
+    <div class="index-column1">
+        <div class="index-column-title">
+            <div class="title active">手游助手</div>
+            <a>更多+</a>
+        </div>
+        <div class="index-colum1-appform">
+            <div class="index-colum1-appform-item">
+                <a><img src="images/app-icon-1.png"> </a>
+                <a><h3>放开那三国助手</h3></a>
+                <p>独家定制 强大好用</p>
+                <div class="appBtn"><a>下载</a></div>
+            </div>
+            <div class="index-colum1-appform-item">
+                <a><img src="images/app-icon-1.png"> </a>
+                <a><h3>放开那三国助手</h3></a>
+                <p>独家定制 强大好用</p>
+                <div class="appBtn"><a>下载</a></div>
+            </div>
+            <div class="index-colum1-appform-item">
+                <a><img src="images/app-icon-1.png" ></a>
+                <a><h3>放开那三国助手</h3></a>
+                <p>独家定制 强大好用</p>
+                <div class="appBtn"><a>下载</a></div>
+            </div>
+            <div class="index-colum1-appform-item">
+                <a><img src="images/app-icon-1.png" ></a>
+                <a><h3>放开那三国助手</h3></a>
+                <p>独家定制 强大好用</p>
+                <div class="appBtn"><a>下载</a></div>
+            </div>
+            <div class="index-colum1-appform-item">
+            <a><img src="images/app-icon-1.png" ></a>
+            <a><h3>放开那三国助手</h3></a>
+            <p>独家定制 强大好用</p>
+            <div class="appBtn"><a>下载</a></div>
+            </div>
+            <div class="index-colum1-appform-item">
+                <a><img src="images/app-icon-1.png" ></a>
+                <a><h3>放开那三国助手</h3></a>
+                <p>独家定制 强大好用</p>
+                <div class="appBtn"><a>下载</a></div>
+            </div>
+            <div class="index-colum1-appform-item">
+                <a><img src="images/app-icon-1.png"> </a>
+                <a><h3>放开那三国助手</h3></a>
+                <p>独家定制 强大好用</p>
+                <div class="appBtn"><a>下载</a></div>
+            </div>
+            <div class="index-colum1-appform-item">
+                <a><img src="images/app-icon-1.png"> </a>
+                <a><h3>放开那三国助手</h3></a>
+                <p>独家定制 强大好用</p>
+                <div class="appBtn"><a>下载</a></div>
+            </div>
+        </div>
+    </div>
+    <!栏目2!>
+    <div class="index-column2">
+        <div class="index-column-left">
+            <div class="index-column-title">
+                <div class="title active">特色栏目</div>
+                <a>手游天天见|手游好好玩</a>
+            </div>
+            <div class="index-colum2-left-item">
+                <img src="images/index-column2-pic.png">
+                <h3>肯投入才会有回报！不花钱的《刀塔传奇》进阶之路</h3>
+                <p>hi~大家好，欢迎来到游久网手游好好玩节目，本期呢，我们将继续带大家不花钱的去玩一款叫做《刀塔传奇》的游戏。</p>
+            </div>
+            <div class="index-colum2-left-item">
+                <img src="images/index-column2-pic.png">
+                <h3>肯投入才会有回报！不花钱的《刀塔传奇》进阶之路</h3>
+                <p>hi~大家好，欢迎来到游久网手游好好玩节目，本期呢，我们将继续带大家不花钱的去玩一款叫做《刀塔传奇》的游戏。</p>
+            </div>
+            <div class="index-colum2-left-item">
+                <img src="images/index-column2-pic.png">
+                <h3>肯投入才会有回报！不花钱的《刀塔传奇》进阶之路</h3>
+                <p>hi~大家好，欢迎来到游久网手游好好玩节目，本期呢，我们将继续带大家不花钱的去玩一款叫做《刀塔传奇》的游戏。</p>
+            </div>
+            <div class="index-colum2-left-item">
+                <img src="images/index-column2-pic.png">
+                <h3>肯投入才会有回报！不花钱的《刀塔传奇》进阶之路</h3>
+                <p>hi~大家好，欢迎来到游久网手游好好玩节目，本期呢，我们将继续带大家不花钱的去玩一款叫做《刀塔传奇》的游戏。</p>
+            </div>
+        </div>
+        <div class="index-column-right">
+            <div class="index-column-title">
+                <div class="title active">论坛活动</div>
+                <a>更多+</a>
+            </div>
+            <div class="index-colum2-right-top">
+                <div class="item">
+                    <a><img src="images/index-column2-right.png"></a>
+                    <p>《美姬爱作战》艳公测，秀游戏</p>
+                    <a><img class="btn" src="images/index-column2-righting.png"> </a>
+
+                </div>
+                <div class="item">
+                    <a><img src="images/index-column2-right.png"></a>
+                    <p>《美姬爱作战》艳公测，秀游戏</p>
+                    <a><img class="btn" src="images/index-column2-righting.png"> </a>
+
+                </div>
+                <div class="item">
+                    <a><img src="images/index-column2-right.png"></a>
+                    <p>《美姬爱作战》艳公测，秀游戏</p>
+                    <a><img class="btn" src="images/index-column2-righting.png"> </a>
+
+                </div>
+            </div>
+            <div class="index-colum2-right-list">
+                <div class="elem">
+                    <a><p>《疾风勇者传》为快感而战！迎内</p></a>
+                    <a><img src="images/index-column2-jiangli-btn.png"></a>
+                </div>
+                <div class="elem">
+                    <a><p>《疾风勇者传》为快感而战！迎内</p></a>
+                    <a><img src="images/index-column2-jiangli-btn.png"></a>
+                </div>
+                <div class="elem">
+                    <a><p>《疾风勇者传》为快感而战！迎内</p></a>
+                    <a><img src="images/index-column2-jiangli-btn.png"></a>
+                </div>
+                <div class="elem">
+                    <a><p>《疾风勇者传》为快感而战！迎内</p></a>
+                    <a><img src="images/index-column2-jiangli-btn.png"></a>
+                </div>
+                <div class="elem">
+                    <a><p>《疾风勇者传》为快感而战！迎内</p></a>
+                    <a><img src="images/index-column2-jiangli-btn.png"></a>
+                </div>
+                <div class="elem">
+                    <a><p>《疾风勇者传》为快感而战！迎内</p></a>
+                    <a><img src="images/index-column2-jiangli-btn.png"></a>
+                </div>
+                <div class="elem">
+                    <a><p>《疾风勇者传》为快感而战！迎内</p></a>
+                    <a><img src="images/index-column2-jiangli-btn.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!栏目3!>
+    <div class="index-column3">
+        <div class="index-column3-left">
+            <div class="index-column-title">
+                <div class="title active">手游攻略</div>
+                <a>更多+</a>
+            </div>
+            <div class="index-column3-left-piclist">
+                <div class="pic">
+                    <a><img src="images/index-column3-left.png"></a>
+                    <a><img src="images/index-column3-left.png"></a>
+                    <a><img src="images/index-column3-left.png"></a>
+                </div>
+            </div>
+            <div class="index-column3-left-newslist">
+                <div class="news-title">
+                    <a>
+                    <h2>城堡争霸三大传奇英雄属性全解析</h2>
+                    <p>[技能打断时机][技能释放技巧][城堡争霸毒蛇女王属性]</p>
+                        <p>[技能打断时机][技能释放技巧][占位影响输出]</p>
+                    </a>
+                </div>
+                <div class="list">
+                <div class="news-item">
+                <a>
+                    <span class="label">动态</span>
+                    <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                    <span class="date">6-12</span>
+                </a>
+                </div>
+                <div class="news-item">
+                    <a>
+                        <span class="label">动态</span>
+                        <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                        <span class="date">6-12</span>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a>
+                        <span class="label">动态</span>
+                        <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                        <span class="date">6-12</span>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a>
+                        <span class="label">动态</span>
+                        <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                        <span class="date">6-12</span>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a>
+                        <span class="label">动态</span>
+                        <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                        <span class="date">6-12</span>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a>
+                        <span class="label">动态</span>
+                        <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                        <span class="date">6-12</span>
+                    </a>
+                </div>
+                </div>
+                <div class="list">
+                    <div class="news-item">
+                        <a>
+                            <span class="label">动态</span>
+                            <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                            <span class="date">6-12</span>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a>
+                            <span class="label">动态</span>
+                            <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                            <span class="date">6-12</span>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a>
+                            <span class="label">动态</span>
+                            <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                            <span class="date">6-12</span>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a>
+                            <span class="label">动态</span>
+                            <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                            <span class="date">6-12</span>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a>
+                            <span class="label">动态</span>
+                            <span class="detail">Gameloft设计大作现代战争5细节公布</span>
+                            <span class="date">6-12</span>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        <div class="index-column-right">
+            <div class="index-column-title">
+                <div class="title active">精品礼包</div>
+                <a>更多+</a>
+            </div>
+            <div class="index-column3-righttop">
+                <img src="images/index-column3-right.png">
+                <a class="gamename">刀塔传奇</a>
+                <a class="prizename">刀塔传奇VIP特权礼包</a>
+                <a class="prize">首发礼包</a><a class="btn">领取</a>
+            </div>
+            <ul class="index-column3-right-list">
+                <li><a class="name">进击的部落</a><a class="prizename">独家礼包</a><a class="btn">领取</a></li>
+                <li><a class="name">进击的部落</a><a class="prizename">独家礼包</a><a class="btn">领取</a></li>
+                <li><a class="name">进击的部落</a><a class="prizename">独家礼包</a><a class="btn">领取</a></li>
+                <li><a class="name">进击的部落</a><a class="prizename">独家礼包</a><a class="btn">领取</a></li>
+                <li><a class="name">进击的部落</a><a class="prizename">独家礼包</a><a class="btn">领取</a></li>
+                <li><a class="name">进击的部落</a><a class="prizename">独家礼包</a><a class="btn">领取</a></li>
+                <li><a class="name">进击的部落</a><a class="prizename">独家礼包</a><a class="btn">领取</a></li>
+                <li><a class="name">进击的部落</a><a class="prizename">独家礼包</a><a class="btn">领取</a></li>
+                <li><a class="name">进击的部落</a><a class="prizename">独家礼包</a><a class="btn">领取</a></li>
+            </ul>
+        </div>
+    </div>
+    <!栏目4!>
+    <div class="index-column4">
+        <div class="index-column-left">
+            <div class="index-column-title">
+                <div class="title active">热门评测</div>
+                <a>更多+</a>
+            </div>
+            <div class="index-colum2-left-item">
+                <img src="images/index-column2-pic.png">
+                <h3>肯投入才会有回报！不花钱的《刀塔传奇》进阶之路</h3>
+                <p>hi~大家好，欢迎来到游久网手游好好玩节目，本期呢，我们将继续带大家不花钱的去玩一款叫做《刀塔传奇》的游戏。</p>
+            </div>
+            <div class="index-colum2-left-item">
+                <img src="images/index-column2-pic.png">
+                <h3>肯投入才会有回报！不花钱的《刀塔传奇》进阶之路</h3>
+                <p>hi~大家好，欢迎来到游久网手游好好玩节目，本期呢，我们将继续带大家不花钱的去玩一款叫做《刀塔传奇》的游戏。</p>
+            </div>
+            <div class="index-colum2-left-item">
+                <img src="images/index-column2-pic.png">
+                <h3>肯投入才会有回报！不花钱的《刀塔传奇》进阶之路</h3>
+                <p>hi~大家好，欢迎来到游久网手游好好玩节目，本期呢，我们将继续带大家不花钱的去玩一款叫做《刀塔传奇》的游戏。</p>
+            </div>
+            <div class="index-colum2-left-item">
+                <img src="images/index-column2-pic.png">
+                <h3>肯投入才会有回报！不花钱的《刀塔传奇》进阶之路</h3>
+                <p>hi~大家好，欢迎来到游久网手游好好玩节目，本期呢，我们将继续带大家不花钱的去玩一款叫做《刀塔传奇》的游戏。</p>
+            </div>
+        </div>
+        <div class="index-column-right">
+            <div class="index-column-title">
+                <div class="title active">开服表</div>
+                <a>更多+</a>
+            </div>
+            <div class="index-column4-righttop">
+                <img src="images/index-column3-right.png">
+                <a class="gamename">刀塔传奇</a>
+                <a class="areanum">格斗115区</a>
+                <a class="date">6-14</a>
+            </div>
+            <ul class="index-column4-right-list">
+                <li><a class="date">今天</a><a class="name">格斗江湖</a><a class="areanum">格斗115区</a></li>
+                <li><a class="date">今天</a><a class="name">格斗江湖</a><a class="areanum">格斗115区</a></li>
+                <li><a class="date">今天</a><a class="name">格斗江湖</a><a class="areanum">格斗115区</a></li>
+                <li><a class="date">今天</a><a class="name">格斗江湖</a><a class="areanum">格斗115区</a></li>
+                <li><a class="date">今天</a><a class="name">格斗江湖</a><a class="areanum">格斗115区</a></li>
+                <li><a class="date">今天</a><a class="name">格斗江湖</a><a class="areanum">格斗115区</a></li>
+                <li><a class="date">今天</a><a class="name">格斗江湖</a><a class="areanum">格斗115区</a></li>
+                <li><a class="date">今天</a><a class="name">格斗江湖</a><a class="areanum">格斗115区</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!广告2!>
+    <div class="index-ad1" href="www.baidu.com">
+        <a>
+            <img src="images/index-ad.png">
+        </a>
+    </div>
+    <!栏目5!>
+    <div class="index-column5">
+            <div class="index-column-title">
+                <div class="title active">推荐游戏</div>
+                <div class="title ">即时</div>
+                <div class="title ">回合</div>
+                <a>更多+</a>
+            </div>
+            <div class="index-column5-form">
+                <ul class="iconlist">
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <img src="images/index-column5-item.png">
+                        <a>忍将</a>
+                    </div>
+                </li>
+            </ul>
+            </div>
+    </div>
+    <!栏目6!>
+    <div class="index-column6">
+            <div class="index-column-title">
+                <div class="title active">游戏合集</div>
+                <a>更多+</a>
+            </div>
+            <div class="index-column6-game">
+                <ul class="index-column3-game-list">
+                    <li>
+                    <div class="item">
+                        <img src="images/index-column6-item.png">
+                        <div class="num">12款</div>
+                    </div>
+                    <a>IOS每周新游合辑：六月</a>
+                </li>
+                    <li>
+                        <div class="item">
+                            <img src="images/index-column6-item.png">
+                            <div class="num">12款</div>
+                        </div>
+                        <a>IOS每周新游合辑：六月</a>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <img src="images/index-column6-item.png">
+                            <div class="num">12款</div>
+                        </div>
+                        <a>IOS每周新游合辑：六月</a>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <img src="images/index-column6-item.png">
+                            <div class="num">12款</div>
+                        </div>
+                        <a>IOS每周新游合辑：六月</a>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <img src="images/index-column6-item.png">
+                            <div class="num">12款</div>
+                        </div>
+                        <a>IOS每周新游合辑：六月</a>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <img src="images/index-column6-item.png">
+                            <div class="num">12款</div>
+                        </div>
+                        <a>IOS每周新游合辑：六月</a>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <img src="images/index-column6-item.png">
+                            <div class="num">12款</div>
+                        </div>
+                        <a>IOS每周新游合辑：六月</a>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <img src="images/index-column6-item.png">
+                            <div class="num">12款</div>
+                        </div>
+                        <a>IOS每周新游合辑：六月</a>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <img src="images/index-column6-item.png">
+                            <div class="num">12款</div>
+                        </div>
+                        <a>IOS每周新游合辑：六月</a>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <img src="images/index-column6-item.png">
+                            <div class="num">12款</div>
+                        </div>
+                        <a>IOS每周新游合辑：六月</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <!首页底部!>
+    <div class="public-dowmer">
+    <div class="public-dowmer-box">
+      <ul>
+          <li><a>关于我们</a></li>
+          <li><a>商务洽谈</a></li>
+          <li><a>联系我们</a></li>
+          <li><a>友情链接</a></li>
+          <li><a>版权声明</a></li>
+          <li><a>厂商后台</a></li>
+          <li><a>站长统计</a></li>
+        </ul>
+    </div>
+    <div class="public-dowmer-copyright">
+      Copyright © 2004 - 2013 UUU9.Com Co. All Rights Reserved
+    </div>
+  </div>
+</body>
+</html>
